@@ -16,7 +16,7 @@ int main() {
         ans[p[i]]=i;
     }
 
-    for (int j=1;j<n;j++) {
+    for (int j=1;j<=n;j++) {
         if (j>1)cout<< ' ';
         cout<<ans[j];
     }
